@@ -27,7 +27,7 @@ describe("ProductDescription", () => {
 
     assert(
       albumBandDiv.text().match(/{{\s*albumInfo\?\.artist\s*}}/),
-      "We'd like you to query the `albumInfo` property directly for the artist name, and we're not seeing that you're doing that."
+      "albumBandDiv.text()"+albumBandDiv.text()+" We'd like you to query the `albumInfo` property directly for the artist name, and we're not seeing that you're doing that."
     );
   });
 });
